@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className='bg-green-300 h-[100vh] w-full'>
       <div className='flex justify-center items-center h-full'>
-        <h1 className='font-bold text-xl'>Welcome to olwen lifesciences</h1>
+        <h1 className='font-bold text-xl'>Welcome to olwen lifesciences shivam</h1>
       </div>
     </div>
   )
