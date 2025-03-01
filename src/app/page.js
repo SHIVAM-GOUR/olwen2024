@@ -1,13 +1,29 @@
-import React from 'react'
+import Offers from '@/components/Offers';
+import Navbar from '../components/Navbar';
+import Intro from '@/components/Intro';
+import NewProducts from '@/components/NewProducts';
+import PopularProducts from '@/components/PopularProducts';
+import TopProducts from '@/components/TopProducts';
+import MedicalProducts from '@/components/MedicalProducts';
+import UpcomingProducts from '@/components/UpcomingProducts';
+import HotOffer from '@/components/HotOffer';
+import Footer from '@/components/Footer';
 
-const Home = () => {
+
+export default function HomePage() {
   return (
-    <div className='bg-green-300 h-[100vh] w-full'>
-      <div className='flex justify-center items-center h-full'>
-        <h1 className='font-bold text-xl'>Welcome to olwen lifesciences</h1>
-      </div>
+    <div>
+      <Navbar />
+      <Intro />
+      <Offers />
+      <NewProducts />
+      <PopularProducts />
+      <TopProducts />
+      <MedicalProducts />
+      <UpcomingProducts />
+      <HotOffer />
+      <Footer />
+    
     </div>
-  )
+  );
 }
-
-export default Home
